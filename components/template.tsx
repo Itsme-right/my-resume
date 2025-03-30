@@ -1,13 +1,14 @@
+import ContentInput from "./content/contentInput";
 
 //210 毫米 × 297 毫米
-export default function template() {
+export default function Template() {
   return (
-    <div>
-        <Top />
+    <div className="flex">
+        {/* <Top />
         <ContenInput />
         <ResumeShow />
-        <Footer/>
-
+        <Footer/> */}
+        <ContentInput />
     </div>
   )
 }

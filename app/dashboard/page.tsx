@@ -1,12 +1,9 @@
-import React from 'react'
+import Template from '@/components/template'
 
 export default function Dashboard() {
   return (
-    <div>
-        <Top />
-        <ContenInput />
-        <ResumeShow />
-        <Footer/>
+    <div className='h-96 bg-amber-100'>
+        <Template/>
     </div>
   )
 }

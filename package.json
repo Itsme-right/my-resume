@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.6.1",
+    "my-resume": "file:",
     "next": "15.2.4",
     "pdfkit": "^0.16.0",
     "react": "^19.0.0",
